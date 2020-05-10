@@ -35,7 +35,7 @@ namespace BackendApiDemo
                 options.AddPolicy(name: MyAllowSpecificOrigins,
                                   builder =>
                                   {
-                                      builder.WithOrigins("*");
+                                      builder.WithOrigins("http://34.72.62.30:8081","*");
                                   });
             });
 
